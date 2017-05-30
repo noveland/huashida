@@ -1,0 +1,180 @@
+/*基本默认值*/
+html{
+    font-size: 62.5%;
+    color: #222;
+}
+body{
+    background-color: #f7f7f7;
+}
+::selection{
+    background: #0088cc;
+    text-shadow: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #5c5c8a;
+}
+a:hover,a:visited,a:link{
+    text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+/*导航条*/
+.navi{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+.nav-top{
+    width: 75%;
+    margin: 0 auto;
+}
+.nav-top .logo{
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+    height: 5em;
+}
+.nav-top ul{
+    width: 90%;
+    box-sizing: border-box;
+    float: right;
+    height: 5em;
+    line-height: 5em;
+}
+.nav-top ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 1.4em;
+}
+.nav-top ul li:hover{
+    background-color: #ccc;
+}
+.dropdown{
+    display: none;
+}
+.nav-top-main li:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+.nav-top-main li .dropdown li{
+    float: none;
+    display: block;
+    width: 12em;
+    background: #eee;
+    line-height: 1.5em;
+}
+.nav-top-main li .dropdown li a{
+    background: #eee;
+}
+.nav-top-main li .dropdown li a:hover{
+    background: #000;
+    color: #555;
+}
+/*导航条响应式s*/
+@media only screen and (max-width:768px) {
+    .logo{
+        display: none;
+    }
+    .navi,.nav-top,.nav-top ul{
+        width: 100%;
+    }
+    .nav-top ul.nav-top-main li ul.dropdown {
+        display: none;
+    }
+}
+/*导航条响应式e*/
+.container-fluid h2{
+    color: #555;
+    margin-left: 3em;
+    display: inline-block;
+}
+small{
+    color: #999;
+}
+.container-fluid h1{
+    color: #555;
+    text-align: center;
+    font-size: 2.2em;
+}
+.container-fluid p.wefor{
+    color: #555;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em 0;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    border-bottom: 1px solid #ccc;
+}
+.quali{
+    margin-top: 4em;
+}
+/*页脚*/
+.footer{
+    background: #333;
+    color: #ccc;
+    padding: 2em;
+    font-size: 1.2em;
+    height:
+}
+.footer-context{
+    width: 100%;
+    box-sizing: border-box;
+}
+.wechat{
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 2em;
+    padding-right: 4em;
+    text-align: right;
+}
+.footer-right{
+    width: 60%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 2em;
+    border-left: 1px solid #666;
+}
+.footer-right ul{
+  font-size: 0.8em;
+}
+.lxfs{
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+.icp{
+    display: block;
+    background: #222;
+    text-align: center;
+}
+.icp p,.icp a{
+    color: #ccc;
+}
+/*页脚响应式S*/
+@media only screen and (max-width:768px) {
+  .wechat{
+      display: none;
+  }
+  .footer-right{
+      width: 90%;
+      padding-left: 0;
+      border-left: none;
+  }
+}
+/*页脚响应式E*/
