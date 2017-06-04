@@ -1,0 +1,140 @@
+/*基本默认值*/
+html{
+    font-size: 62.5%;
+    color: #222;
+}
+body{
+    background-color: #f7f7f7;
+}
+::selection{
+    background: #0088cc;
+    text-shadow: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #5c5c8a;
+}
+a:hover,a:visited,a:link{
+    text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+header{
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+.nav-top{
+    width: 70%;
+    margin: 0 auto;
+    height: 2.8em;
+}
+.logo{
+    float: left;
+}
+.nav-top ul {
+    float: right;
+}
+.nav-top ul li{
+    float: left;
+    font-size: 1.2em;
+    line-height: 2.8em;
+    padding-right: 1em;
+    font-weight: bold;
+}
+.nav-top ul li a{
+    color: #fff;
+}
+/*导航CSS*/
+.jumu{
+    height: 29.8em;
+    background-image: url('../img/VCG41645973047.jpg');
+}
+.main ul{
+    width: 70%;
+    margin: 0 auto;
+}
+.main ul li{
+    width: calc(16.6666%);
+    text-align: center;
+}
+.main h2{
+    text-align: center;
+
+}
+.product{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+}
+.product img{
+    width: calc(33.33333% - 1em);
+    height: 24em;
+    margin: 0.2em auto;
+}
+/*页脚*/
+.footer{
+    background:#333;
+    color: #ccc;
+    padding: 2em;
+    font-size: 1.2em;
+    height:
+}
+.footer-context{
+    width: 100%;
+    box-sizing: border-box;
+}
+.wechat{
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 2em;
+    padding-right: 4em;
+    text-align: right;
+}
+.footer-right{
+    width: 60%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 2em;
+    border-left: 1px solid #666;
+}
+.footer-right ul{
+  font-size: 0.8em;
+}
+.lxfs{
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+.icp{
+    display: block;
+    background: #222;
+    text-align: center;
+}
+.icp p,.icp a{
+    color: #ccc;
+}
+/*页脚响应式S*/
+@media only screen and (max-width:768px) {
+  .wechat{
+      display: none;
+  }
+  .footer-right{
+      width: 90%;
+      padding-left: 0;
+      border-left: none;
+  }
+}
+/*页脚响应式E*/
