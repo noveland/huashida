@@ -110,9 +110,13 @@ a:hover,a:visited,a:link{
 }
 /*导航条响应式e*/
 /*轮播*/
-.jumbotron{
-    color: #555;
-    background-image: url("");
+.ad,.item{
+    height: 34.8em;
+}
+@media only screen and (max-width:768px) {
+.ad,.item{
+    height: 12.8em;
+}
 }
 /*三入口*/
 .context-one{
@@ -202,7 +206,9 @@ a:hover,a:visited,a:link{
     text-align: center;
 }
 .context-two a.btn{
-    margin-left: 5em;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 2em;
 }
 /*context-two响应式S*/
 @media only screen and (max-width:768px) {
@@ -222,6 +228,7 @@ a:hover,a:visited,a:link{
     width: 100%;
     height: auto;
     padding: 5em;
+    padding-bottom: 14em;
     padding-left: 10em;
     background: url("../img/Win_AppsStoreBG2_1920x580_EN_US.jpg") no-repeat center;
 }
