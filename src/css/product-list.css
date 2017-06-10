@@ -99,6 +99,8 @@ header{
 .product-date p{
     float: left;
     width: auto;
+    font-weight: bold;
+    color: #555;
 }
 .product-date .btn{
     float: right;
@@ -107,8 +109,10 @@ header{
 .product-modal p{
     display: inline-block;
     margin: 0 2em;
-    line-height: 1.8em;
-    font-size: 1.8em;
+    line-height: 1.6em;
+    font-size: 1.6em;
+    color: #555;
+    font-family: '微软雅黑';
 }
 /*页脚*/
 .footer{
