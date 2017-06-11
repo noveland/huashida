@@ -79,9 +79,16 @@ header{
     text-align: center;
 }
 .product{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 1em;
+}
+.carousel-inner{
+    width: 70%;
+    margin: 0 auto;
+}
+.carousel-control.left,.carousel-control.right{
+    background-image: none;
 }
 .product-img{
     width: calc(33.33333% - 1em);
