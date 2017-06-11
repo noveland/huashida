@@ -89,7 +89,7 @@ header{
     width: 95%;
     margin: 0 auto;
 }
-tr:hover{
+tbody tr:hover{
     background-color: #eee;
 }
 /*页脚*/
