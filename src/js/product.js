@@ -1,6 +1,7 @@
 $(document).ready(function(){
-  $("..carousel").carousel(
-    { 
+  $(".carousel").carousel(
+    { pause: true,
+      interval: false
 
     }
   );
