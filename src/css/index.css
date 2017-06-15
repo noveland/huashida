@@ -7,8 +7,12 @@ body{
     background-color: #f7f7f7;
 }
 ::selection{
-    background: #0088cc;
-    text-shadow: none;
+    color: #fff;
+    background-color: #6699cc;
+}
+::-moz-selection{
+    color: #fff;
+    background-color: #6699cc;
 }
 ul{
     margin: 0;
@@ -117,7 +121,7 @@ a:hover,a:visited,a:link{
 }
 @media only screen and (max-width:768px) {
   .ad,.item{
-      height: 12.8em;
+      height: auto;
   }
 }
 
@@ -198,12 +202,21 @@ a:hover,a:visited,a:link{
         padding: 0;
         border-bottom: 1px solid #ccc;
     }
+    .context-one-left h2{
+        font-size: 1.4em;
+        color: #666;
+        font-weight: bold;
+    }
+    .context-one-left p{
+        font-size: 1em;
+        line-height: 1.5em;
+        color: #666;
+    }
     .context-one-right{
         width: 100%;
         float: left;
-        text-align: center;
-        padding: 2em;
-        padding-left: 0;
+        text-align: left;
+        padding-left: 5em;
         border-left: none;
     }
 }
@@ -232,13 +245,26 @@ a:hover,a:visited,a:link{
 @media only screen and (max-width:768px) {
   .quali-one,.quali-two,.quali-three{
       float: left;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
   }
-  .context-two a.btn{
-      margin-left: 0;
-      width: auto;
+  .context-two h2{
+      font-size: 1.9em;
+      font-weight: bold;
+  }
+  .quali-one,.quali-two,.quali-three p{
+      font-size: 1.4em;
+      color: #666;
+      font-weight: bold;
+  }
+  .context-two .btn-self a.btn{
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+  }
+  .context-two .btn-self{
+      margin: 0 auto;
   }
 }
 
@@ -266,6 +292,13 @@ a:hover,a:visited,a:link{
   .context-three{
     height: auto;
     padding: 2em 2em 3em 2em;
+  }
+  .context-three h2{
+      font-weight: bold;
+  }
+  .context-three p{
+      font-size: 1.4em;
+      margin-top: 1em;
   }
 }
 /*context-three响应式e*/

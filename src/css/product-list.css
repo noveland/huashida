@@ -7,8 +7,12 @@ body{
     background-color: #f7f7f7;
 }
 ::selection{
-    background: #0088cc;
-    text-shadow: none;
+    color: #fff;
+    background-color: #6699cc;
+}
+::-moz-selection{
+    color: #fff;
+    background-color: #6699cc;
 }
 ul{
     margin: 0;
