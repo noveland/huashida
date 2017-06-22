@@ -39,7 +39,6 @@ a:hover,a:visited,a:link{
 }
 header{
     border-bottom: 1px solid #ccc;
-    background-color: #eee;
 }
 .nav-top-back{
     width: 100%;
@@ -66,11 +65,44 @@ header{
 .nav-top ul li a{
     color: #555;
 }
+/*导航响应式 S*/
+@media only screen and (max-width:768px) {
+  .logo{
+      display: none;
+  }
+  .nav-top{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .nav-top-back{
+      background-color: rgba(255,255,255,0.5);
+  }
+  .nav-top ul{
+      width: 100%;
+  }
+  .nav-top ul li{
+      width: 25%;
+      text-align: center;
+  }
+}
+/*导航响应式 E*/
 /*导航CSS*/
 .jumu{
     height: 29.8em;
     background-image: url('../img/VCG41645973047.jpg');
 }
+@media only screen and (max-width:768px) {
+  .jumu{
+      height: auto;
+      background-image: none;
+  }
+  header{
+      border-bottom: none;
+      background-color: #;
+  }
+}
+
 .main ul{
     width: 70%;
     margin: 0 auto;
@@ -127,6 +159,25 @@ header{
     font-size: 1.6em;
     color: #555;
     font-family: '微软雅黑';
+}
+@media only screen and (max-width:768px) {
+  .main ul{
+      width: 95%;
+      margin: 0 auto;
+  }
+  .product{
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .carousel-inner{
+      width: 95%;
+      margin: 0 auto;
+  }
+  .product-img h3{
+      text-align: center;
+      font-size: 1em;
+  }
 }
 /*页脚*/
 .footer{
