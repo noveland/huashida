@@ -92,6 +92,7 @@ header{
     height: 29.8em;
     background-image: url('../img/VCG41645973047.jpg');
 }
+/*巨幕响应式 S*/
 @media only screen and (max-width:768px) {
   .jumu{
       height: auto;
@@ -102,6 +103,7 @@ header{
       background-color: #;
   }
 }
+/*巨幕响应式 E*/
 
 .main ul{
     width: 70%;

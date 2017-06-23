@@ -78,7 +78,7 @@ header{
       padding: 0;
   }
   .nav-top-back{
-      background-color: #eee;
+      background-color: none;
   }
   .nav-top ul{
       width: 100%;

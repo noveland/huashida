@@ -39,7 +39,6 @@ a:hover,a:visited,a:link{
 }
 header{
     border-bottom: 1px solid #ccc;
-    background-color: #eee;
 }
 .nav-top-back{
     width: 100%;
@@ -66,11 +65,47 @@ header{
 .nav-top ul li a{
     color: #555;
 }
+
+/*导航响应式 S*/
+@media only screen and (max-width:768px) {
+  .logo{
+      display: none;
+  }
+  .nav-top{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .nav-top-back{
+      background-color: rgba(255,255,255,0.5);
+  }
+  .nav-top ul{
+      width: 100%;
+  }
+  .nav-top ul li{
+      width: 25%;
+      text-align: center;
+  }
+}
+/*导航响应式 E*/
+
 /*导航CSS*/
 .jumu{
     height: 29.8em;
     background-image: url('../img/VCG41645973047.jpg');
 }
+
+/*巨幕响应式 S*/
+@media only screen and (max-width:768px) {
+  .jumu{
+      height: auto;
+      background-image: none;
+  }
+  header{
+      border-bottom: none;
+  }
+}
+/*巨幕响应式 E*/
 
 .main{
     width: 75%;
@@ -96,6 +131,34 @@ header{
 tbody tr:hover{
     background-color: #eee;
 }
+
+/*主体响应式 S*/
+@media only screen and (max-width:768px) {
+  .main{
+      width: 95%;
+      margin: 0 auto;
+      padding: 1em;
+  }
+  .ltd{
+      margin-top: 0;
+  }
+  .ltd .ltd-p{
+      font-size: 1.1em;
+      line-height: 1.4em;
+      color: #555;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .ltd h3{
+      font-size: 1.4em;
+  }
+  .main h1{
+      font-size: 1.8em;
+      margin: 0.382em;
+  }
+}
+/*主体响应式 E*/
+
 /*页脚*/
 .footer{
     background:#333;
