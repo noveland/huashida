@@ -140,7 +140,7 @@ header{
     border-bottom: 1px solid #ddd;
 }
 .quali-test-img img{
-    width: 42%;
+    width: 40%;
     height: 29em;
     float: left;
     box-sizing: border-box;
@@ -184,7 +184,7 @@ header{
   .quali{
       width: 90%;
       margin: 0 auto;
-      padding: 0 0 4em 0;;
+      padding: 0 0 4em 0;
   }
   .quali h2{
       text-align: center;
@@ -192,9 +192,27 @@ header{
       font-size: 1.6em;
       margin-bottom: 2em;
   }
+  .media{
+      width: 100%;
+  }
+  .media-left{
+      width: 40%;
+      box-sizing: border-box;
+      padding: 0 1em 0 0;
+  }
+  .media-left .media-object{
+      width: 100%;
+  }
   .media-body{
+      width: 60%;
+      box-sizing: border-box;
       padding: 0;
-      font-size: 1.1em;
+      font-size: 0.8em;
+      color: #666;
+  }
+  .media-heading{
+      font-weight: bold;
+      color: #666;
   }
 }
 /*证书响应式 E*/

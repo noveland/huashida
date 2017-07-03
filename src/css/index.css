@@ -41,7 +41,6 @@ a:hover,a:visited,a:link{
     width: 100%;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid #ccc;
 }
 .nav-top{
     width: 75%;
@@ -65,32 +64,15 @@ a:hover,a:visited,a:link{
     width: 25%;
     float: left;
     text-align: center;
+    color: #555;
     font-size: 1.2em;
     font-weight: bold;
 }
 .nav-top ul li:hover{
     background-color: #ccc;
 }
-.dropdown{
-    display: none;
-}
-.nav-top-main li:hover .dropdown{
-    display: none;/*隐藏*/
-    position: absolute;
-}
-.nav-top-main li .dropdown li{
-    float: none;
-    display: none;/*隐藏*/
-    width: 12em;
-    background: #eee;
-    line-height: 1.5em;
-}
-.nav-top-main li .dropdown li a{
-    background: #eee;
-}
-.nav-top-main li .dropdown li a:hover{
-    background: #000;
-    color: #555;
+.nav-top-main a{
+    color: #666;
 }
 /*导航条响应式s*/
 @media only screen and (max-width:768px) {
@@ -121,7 +103,9 @@ a:hover,a:visited,a:link{
 }
 @media only screen and (max-width:768px) {
   .ad,.item{
-      height: auto;
+      height: 14em;
+      width: auto;
+      max-width: 768px;
   }
 }
 
@@ -237,7 +221,7 @@ a:hover,a:visited,a:link{
     text-align: center;
 }
 .context-two a.btn{
-    width: 10%;
+    width: auto;
     margin-left: 45%;
     margin-top: 2em;
 }
@@ -259,8 +243,8 @@ a:hover,a:visited,a:link{
       font-weight: bold;
   }
   .context-two .btn-self a.btn{
-      margin: 0 auto;
-      width: 100%;
+      margin: 0 10%;
+      width: 80%;
       text-align: center;
   }
   .context-two .btn-self{
