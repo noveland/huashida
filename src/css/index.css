@@ -103,9 +103,9 @@ a:hover,a:visited,a:link{
 }
 @media only screen and (max-width:768px) {
   .ad,.item{
-      height: 14em;
-      width: auto;
-      max-width: 768px;
+    height: auto;
+    width: auto;
+    max-width: 768px;
   }
 }
 
@@ -230,17 +230,18 @@ a:hover,a:visited,a:link{
   .quali-one,.quali-two,.quali-three{
       float: left;
       width: 100%;
-      margin: 0 auto;
+      margin: 0.5em auto;
       text-align: center;
   }
   .context-two h2{
       font-size: 1.9em;
       font-weight: bold;
   }
-  .quali-one,.quali-two,.quali-three p{
+  .quali-one p,.quali-two p,.quali-three p{
       font-size: 1.4em;
       color: #666;
       font-weight: bold;
+      margin-top: 10px;
   }
   .context-two .btn-self a.btn{
       margin: 0 10%;
@@ -276,12 +277,13 @@ a:hover,a:visited,a:link{
   .context-three{
     height: auto;
     padding: 2em 2em 3em 2em;
+    background: url("../img/call-m.jpg") no-repeat center;
   }
   .context-three h2{
       font-weight: bold;
   }
   .context-three p{
-      font-size: 1.4em;
+      font-size: 1.2em;
       margin-top: 1em;
   }
 }

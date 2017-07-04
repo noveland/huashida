@@ -90,7 +90,7 @@ header{
 /*导航CSS*/
 .jumu{
     height: 29.8em;
-    background-image: url('../img/VCG41645973047.jpg');
+    background-image: url('../img/product-banner.jpg');
 }
 /*巨幕响应式 S*/
 @media only screen and (max-width:768px) {
