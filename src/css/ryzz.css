@@ -161,9 +161,15 @@ header{
     font-size: 1.6em;
     color: #666;
 }
+.media-body p{
+    color: #666;
+    font-size: 0.9em;
+}
 .media-heading{
     font-size: 1.4em;
     padding-bottom: 0.618em;
+    font-weight: bold;
+    color: #666;
 }
 /*证书 E*/
 /*证书响应式 S*/
