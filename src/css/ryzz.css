@@ -36,6 +36,8 @@ a:hover,a:visited,a:link{
 .clearfix:after{
     clear: both;
 }
+
+
 /*导航条*/
 header{
     background-color: #eee;

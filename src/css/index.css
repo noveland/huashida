@@ -36,6 +36,12 @@ a:hover,a:visited,a:link{
 .clearfix:after{
     clear: both;
 }
+
+/*去除项*/
+.container-fluid{
+    display: none;
+}
+
 /*导航条*/
 .navi{
     width: 100%;
